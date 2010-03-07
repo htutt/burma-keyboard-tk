@@ -1,0 +1,10 @@
+Burma-Keyboard-Tk package
+-------------------------
+
+ v0.1.0
+
+ * Initial release
+ * This program is re-distributed and modified from my zawgyi-keyboard project
+ * This program is ported to GUI using Python Tkinter Library
+
+ -- Phone Htut <phonehtut2@gmail.com>  Sun Mar  7 20:21:39 CET 2010

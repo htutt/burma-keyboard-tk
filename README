@@ -1,0 +1,93 @@
+Burma-Keyboard-Tk is Python Tkinter-based GUI program. It is writen in the hope
+of easy to use it and install Myanmar Fonts and Xkeyboard.
+
+
+Before runing this program
+==========================
+This program is based on Python Tkinter Library. Tkinter is included in your
+Python Standard Library. Although, It needs Tcl/Tk packages. So please install
+Tcl/Tk in your system.
+
+On Debian/Ubuntu Linux system, run the following command
+$ sudo apt-get install python-tk
+
+On Fedora Linux,
+$ sudo yum install tcl-dev
+
+
+For Other Linux Distro and FreeBSD users would know how to install tcl/tk.
+
+-------------------------------------------------------------------------
+Suggest: IF you Can't manage to install tcl/tk, just install idle.
+IDLE is Python's Tkinter-based Integrated DeveLopment Environment.
+When you install idle, your linux or FreeBSD package manager manages
+to install tcl/tk  as dependencies.
+									
+On Debian/Ubuntu Linux:				
+$ sudo apt-get install idle			
+									
+On Fedora Linux:					
+# yum install idle					
+									
+On FreeBSD:							
+# pkg_add -r idle					
+-------------------------------------------------------------------------
+
+How to run this program
+=======================
+
+* Extract package
+$ tar xvzf burma-keyboard-tk*.tar.gz
+
+* Enter to source diectory
+$ cd burma-keyboard-tk
+
+* Run with Super user
+$ sudo python burma-keyboard-tk.py
+
+
+How to put other fonts and xkb mm files
+=======================================
+
+STEP 1. Make a folder and put font and xkb mm file in it.
+- make a directory under 'burma-keyboard-tk' folder
+- name it as your wish.
+- put your font and xkb file in your created directory
+
+	for example:
+	$ cd burma-keyboard-tk
+	$ mkdir yourfontfolder
+	$ cp yourfont.ttf ~/.../burma-keyboard-tk/yourfontfolder
+	$ cp mm ~/.../burma-keyboard-tk/yourfontfolder
+
+STEP 2. Write yourfontfolder name in "fontfolders.txt"
+- 'fontfolders.txt' file is under 'burma-keyboard-tk' directory
+
+	for example:
+	in "fontfolders.txt" file, like that following...
+
+
+mm3
+zawgyi2009
+zawgyi2008
+yourfontfolder
+
+
+STEP 3. Write details for your font in "fonts_data.csv" file
+- 'fonts_data.csv' file is under 'burma-keyboard-tk' directory
+- in the end of lines, put fontname, foldername, email
+
+	for example:
+	in "fonts_data.csv" file, like that following...
+
+
+mm3,mm3,kuniyoshi@fastmail.fm
+zawgyi,zawgyi2009,soemin@my-MM.org
+zawgyi,zawgyi2008,saturngod@gmail.com
+yourfontname,yourfontfolder,email inside mm xkb file
+
+
+Above 3 Steps are basic configuration and get started.
+In case if Unexpected things happended, need to modify in source code.
+If needed, feel free to contact the author.
+

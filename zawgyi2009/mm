@@ -1,0 +1,67 @@
+// based on a keyboard map from an 'xkb/symbols/mm' file
+
+// Zawgyi 2009 July Keyboard by Soe Min <soemin@my-MM.org>
+// Fixed \ by kokhy
+// Change Zawgyi Style by Saturngod
+
+// $XKeyboardConfig$
+
+partial alphanumeric_keys
+xkb_symbols "mm-zawgyi-2009-jul" {
+
+    name[Group1]= "Myanmar - Zawgyi 2009 July";
+
+    key <TLDE> { [	U103F, asciitilde,	grave,	asciitilde   ] }; 
+    key <AE01> { [      U1041,      U100B,            1,      exclam ] };
+    key <AE02> { [      U1042,      U100D,            2,          at ] };
+    key <AE03> { [      U1043,      U100E,            3,  numbersign ] };
+    key <AE04> { [      U1044,      U104e,            4,      dollar ] };
+    key <AE05> { [      U1045,      U1029,            5,     percent ] };
+    key <AE06> { [      U1046,      U102a,            6, asciicircum ] };
+    key <AE07> { [      U1047,      U101b,            7,   ampersand ] };
+    key <AE08> { [      U1048,      U1002,            8,    asterisk ] };
+    key <AE09> { [      U1049,      U1026,            9,   parenleft ] };
+    key <AE10> { [      U1040,      U1023,            0,  parenright ] };
+    key <AE11> { [      minus, underscore,        minus,  underscore ] };
+    key <AE12> { [      equal,       plus,        equal,        plus ] };
+
+    key <AD01> { [      U1006,      null,            q,           Q ] };
+    key <AD02> { [      U1010,      null,            w,           W ] };
+    key <AD03> { [      U1014,      U1008,            e,           E ] };
+    key <AD04> { [      U1019,      null,            r,           R ] };
+    key <AD05> { [      U1021,      U1024,            t,           T ] };
+    key <AD06> { [      U1015,      U104C,            y,           Y ] };
+    key <AD07> { [      U1000,      U1025,            u,           U ] };
+    key <AD08> { [      U1004,      U104D,            i,           I ] };
+    key <AD09> { [      U101E,      O,            o,           O ] };
+    key <AD10> { [      U1005,      U100F,            p,           P ] };
+    key <AD11> { [      U101F,      U1027,  bracketleft,   braceleft ] };
+    key <AD12> { [      U104F                           ] };
+
+    key <AC01> { [      U1031,      U1017,            a,           A ] };
+    key <AC02> { [      U103A,      U103D,            s,           S ] };
+    key <AC03> { [      U102D,      U102E,            d,           D ] };
+    key <AC04> { [      U1039,      U103F,            f,           F ] };
+    key <AC05> { [      U102B,      U103C,            g,           G ] };
+    key <AC06> { [      U1037,      U1036,            h,           H ] };
+    key <AC07> { [      U103B,      U1032,            j,           J ] };
+    key <AC08> { [      U102F,      U102f,            k,           K ] };
+    key <AC09> { [      U1030,      U1030,            l,           L ] };
+    key <AC10> { [      U1038,      null,    semicolon,       colon ] };
+    key <AC11> { [      U1012,      U1013                           ] };
+    key <AC12> { [      U104F                           ] };
+
+    key <AB01> { [      U1016,      U1007,           z,           Z ] };
+    key <AB02> { [      U1011,      U100C,           x,           X ] };
+    key <AB03> { [      U1001,      U1003,           c,           C ] };
+    key <AB04> { [      U101C,      U1020,           v,           V ] };
+    key <AB05> { [      U1018,      null,           b,           B ] };
+    key <AB06> { [      U100A,      U1009,           n,           N ] };
+    key <AB07> { [      U102C,      U103B,           m,           M ] };
+    key <AB08> { [      U101A,      U101D,      comma,        less ] };
+    key <AB09> { [      period,      U1008,     period,     greater ] };
+    key <AB10> { [      U104B,      U104A,     slash,     question ] };
+    
+    key <BKSL> { [ U104F ] };
+};
+

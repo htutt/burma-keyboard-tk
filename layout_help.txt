@@ -1,0 +1,17 @@
+Layout Help
+===========
+
+* Go to System > Preferences > Keyboard, click on Keyboard, then
+	Keyboard Preferences Window would be appeared.
+
+* Go to Layout Tab and click on Add button. Choose a Layout Myanmar
+	and press Add button. You will have both US English and Myanmar Layouts.
+
+* To get keyboard switching, press Layout Options in the Layout Tab
+	of Keyboard Preferences.
+
+* Check e.g. Shift+Ctrl Change Layout in Layout Switching.
+
+* To get Keyboard Indicator on your panel, right-click on Panel and
+	click on Add to Panel. Search Keyboard Indicator and click it to add.
+	You will see Keyboard Indicator on your Panel.
