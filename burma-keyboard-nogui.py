@@ -316,6 +316,9 @@ def display_txt_in_shell(filename):
 
 if __name__ == "__main__":
 
+	# for shell beauty
+	print '\n' * 2
+
 	# Detecting distributions and finding correct paths for installation
 	log('Checking your system platform...')
 	if sys.platform.startswith('linux'):
