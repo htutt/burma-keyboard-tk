@@ -46,6 +46,21 @@ $ cd burma-keyboard-tk
 $ sudo python burma-keyboard-tk.py
 
 
+How to run this program without GUI
+===================================
+In case you don't have Tcl/Tk package installed on your system, you can run it
+immediately without GUI.
+
+* Extract package
+$ tar xvzf burma-keyboard-tk*.tar.gz
+
+* Enter to source diectory
+$ cd burma-keyboard-tk
+
+* Run with Super user
+$ sudo python burma-keyboard-nogui.py
+
+
 How to put other fonts and xkb mm files
 =======================================
 

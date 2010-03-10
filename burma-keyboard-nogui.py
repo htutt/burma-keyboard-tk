@@ -34,7 +34,7 @@ __license__  = "GPLv3"
 
 """ burma-keyboard-tk package """
 __port__ = "burma-keyboard-tk"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __metor__ = "Phone Htut <phonehtut2@gmail.com>"
 
 
@@ -349,7 +349,7 @@ if __name__ == "__main__":
 	choose_font()
 
 	# asking what to do ( install or uninstall, something like that)
-	print "\nYou are about to press..."
+	print "\n"
 	while 1:
 		ans = raw_input('[i] install, [r] remove, [h] layout help,\n[l] logs, [q] exit : ')
 		if ans == 'i':

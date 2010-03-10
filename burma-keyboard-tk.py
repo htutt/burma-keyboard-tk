@@ -29,7 +29,7 @@ __license__  = "GPLv3"
 
 """ burma-keyboard-tk package """
 __port__ = "burma-keyboard-tk"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __metor__ = "Phone Htut <phonehtut2@gmail.com>"
 
 
@@ -124,7 +124,7 @@ def resource(fontname, fontfolder, email):
 		else:
 			t1.insert(END, log('ERROR: Font not found in %s folder!' % src_path))
 			showerror(title="Error", message=("Font not fonund in the '%s' folder!" % src_path))
-			showinfo(title='Suggest Message', message=(log("You can download it from Internet and put it in the '%s' folder and then try again." % src_path)))
+			showinfo(title='Suggest', message=(log("You can download it from Internet and put it in the '%s' folder and then try again." % src_path)))
 			return
 	
 	# finding mm files
@@ -144,7 +144,7 @@ def resource(fontname, fontfolder, email):
 	else:
 		t1.insert(END, log('ERROR: mm xkeyboard file not found.') + "\n")
 		showerror(title="Error", message="Xkeyboard mm file not fonund in the source folder!")
-		showinfo(title='Suggest Message', message=log("Check your xkb mm file in the %s folder or download from net and put it in the folder then try again" % src_path))
+		showinfo(title='Suggest', message=log("Check your xkb mm file in the %s folder or download from net and put it in the folder then try again" % src_path))
 		return
 
 # Installation fonts and keyboard data
@@ -176,7 +176,7 @@ def install():
 			if askokcancel(title=log("Uninstallation finished!"), message="New Installation will continue."):
 				log('You are being asked to continue Installation.')
 				install()
-				showinfo(title="Installation finished!", message=log("Installation is finished!"))
+				showinfo(title="Info", message=log("Installation is finished!"))
 				return
 			else:
 				t2.insert(END, log('You stop the install progress after removing previous package!') + "\n")
@@ -274,7 +274,7 @@ def install_test():
 		install()
 	except Exception as ex:
 		showerror(title="Error", message=log(ex))
-		showinfo(title="Suggest Message", message=log('You must use sudo if error is Permission denied OR You need to choose a font and confirm before install.'))
+		showinfo(title='Suggest', message=log('You must use sudo if error is Permission denied OR You need to choose a font and confirm before install.'))
 
 # Log Display function
 def display_log():

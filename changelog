@@ -1,5 +1,13 @@
 Burma-Keyboard-Tk package
 -------------------------
+ v0.1.1
+
+ * Add burma-keyboard-nogui for CLI usage
+ * Modified README
+ * Suggest Message in Messagebox title to Suggest
+
+ -- Phone Htut <phonehtut2@gmail.com>  Wed Mar 10 21:52:08 CET 2010
+
 
  v0.1.0
 
