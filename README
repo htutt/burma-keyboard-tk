@@ -12,7 +12,7 @@ On Debian/Ubuntu Linux system, run the following command
 $ sudo apt-get install python-tk
 
 On Fedora Linux,
-$ sudo yum install tcl-dev
+$ sudo yum install tkinter
 
 
 For Other Linux Distro and FreeBSD users would know how to install tcl/tk.
